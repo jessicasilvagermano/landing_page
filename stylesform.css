@@ -1,0 +1,66 @@
+
+:root {
+    --text-primary: white ;
+    --text-secondary:#850005
+}
+
+
+
+html{
+    display:flex;
+    height:100%;
+    justify-content:space-around;
+    align-items:center;
+    background-color:var(--text-secondary);
+    
+}
+
+h1{
+    flex-flow: row wrap;
+    width:7em; 
+    box-sizing:border-box;   
+}
+form div{
+    display:flex;
+    flex-direction:column;
+   
+    justify-content:center;
+    align-items:center;
+    border:none;  
+    text-align:center;
+    border-radius:2rem;  
+    padding:1em;
+    gap:0.5em;
+    width:25em; 
+    box-sizing:border-box;
+    background-color:var(--text-primary);  
+}
+
+.form_input{
+    border:solid 0.1em;
+    padding:0.5rem;
+    text-align:center; 
+    width:15rem; 
+}
+
+img{
+    width:20em;   
+}
+
+
+button{
+    background-color:var(--text-secondary);
+    width:17rem;
+    border:none;
+    border-radius:0.6em;
+    padding:0.5rem;
+   
+    
+}
+
+
+
+a{
+    color:var(--text-primary);
+    text-decoration:none; 
+}

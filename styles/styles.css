@@ -302,6 +302,10 @@ button {
         margin: 2rem 0.7rem;
        
     }
+    
+.Carrocel img:hover{ 
+    width: 250px;
+    }
 
     .Imgs_Carrocel img{
         

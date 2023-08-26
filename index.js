@@ -7,7 +7,7 @@ const email= document.getElementById("e-mail").value;
 
 function validate() {
    if ( nome == "") {
-    alert("Por favor preencha tod   os campos!")
+    alert("Por favor preencha todos campos!")
    } else {
     alert( "Cadastro realizado. Obrigado!");
    };

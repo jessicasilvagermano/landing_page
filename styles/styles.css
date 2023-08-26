@@ -198,8 +198,11 @@ footer small {
 
 
 
-@media screen and (min-width:481px) and ( max-width: 768px) {
+@media screen and (min-width:470px) and ( max-width: 760px) {
 
+    html{
+        width:100vw;
+    }
 
     header {
         background-size:contain;
@@ -207,6 +210,7 @@ footer small {
         font-size:2.5rem;
         margin:0em;
         height:380px;
+       
 
     }
     .header__div {
@@ -243,4 +247,94 @@ button {
 }
 
 
+}
+
+@media screen and (min-width:300px) and ( max-width: 469px) {
+
+   html{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 0 1rem;
+   }
+
+    header {
+        background-size:contain;
+        background-position:top;
+        font-size:0.3rem;
+        margin:0px;
+        width:100vw;
+        height:240px;
+        
+    }
+
+
+    .header__div {
+        height:2rem;
+        margin-top:1.5em;
+        
+       
+    }
+
+    .cabeçalho{
+        padding: 0 0.8rem;
+        justify-content:space-around;
+        
+    }
+
+.logomarca{
+    width:8em;
+}
+
+header ul {
+justify-content:center;
+font-size:1em;
+gap:1.5em;
+}
+
+
+ h1, p {
+text-align:center;
+font-size:0.4em;
+
+
+ }
+
+.Carrocel h1{
+    font-size:1em;
+    flex-flow:row wrap;
+    margin: 0rem 0.7rem;
+}
+
+
+ .Imgs_Carrocel img{
+    
+    width:15rem;
+
+    }
+    .Imgs_Carrocel{
+        font-size:0.7rem;
+    }
+ 
+iframe {
+    width:11em;
+    height:11em;
+}
+#local img {
+    width:11em;
+    height:11em;
+}
+
+button {
+    font-size:0.5em;
+    border-radius:0.6em;
+}
+
+.SectionLocalizacaoDiv h3 {
+   font-size:1.2rem;
+}
+
+footer h1{
+    font-size:0.8rem;
+}
 }

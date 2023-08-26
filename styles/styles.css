@@ -264,77 +264,73 @@ button {
         font-size:0.3rem;
         margin:0px;
         width:100vw;
-        height:240px;
-        
+        height:240px;  
     }
 
 
     .header__div {
         height:2rem;
         margin-top:1.5em;
-        
-       
     }
 
     .cabeçalho{
         padding: 0 0.8rem;
-        justify-content:space-around;
-        
+        justify-content:space-around;    
     }
 
-.logomarca{
-    width:8em;
-}
 
-header ul {
-justify-content:center;
-font-size:1em;
-gap:1.5em;
-}
+    .logomarca{
+        width:8em;
+    }
 
-
- h1, p {
-text-align:center;
-font-size:0.4em;
-
-
- }
-
-.Carrocel h1{
+    header ul {
+    justify-content:center;
     font-size:1em;
-    flex-flow:row wrap;
-    margin: 0rem 0.7rem;
-}
+    gap:1.5em;
+    }
 
 
- .Imgs_Carrocel img{
+    h1, p {
+    text-align:center;
+    font-size:0.4em;
+
+
+    }
+
+    .Carrocel h1{
+        font-size:1em;
+        flex-flow:row wrap;
+        margin: 2rem 0.7rem;
+    }
+
+    .Imgs_Carrocel img{
+        
+        width:20rem;
+
+        }
+        .Imgs_Carrocel{
+            font-size:0.7rem;
+        }
     
-    width:15rem;
-
+    iframe {
+        width:11em;
+        height:11em;
     }
-    .Imgs_Carrocel{
-        font-size:0.7rem;
+    #local img {
+        width:11em;
+        height:11em;
     }
- 
-iframe {
-    width:11em;
-    height:11em;
-}
-#local img {
-    width:11em;
-    height:11em;
-}
 
-button {
-    font-size:0.5em;
-    border-radius:0.6em;
-}
+    button {
+        font-size:1rem;
+        border-radius:0.6em;
+    }
 
-.SectionLocalizacaoDiv h3 {
-   font-size:1.2rem;
-}
+    .SectionLocalizacaoDiv h3 {
+    font-size:1.2rem;
+    }
 
-footer h1{
-    font-size:0.8rem;
-}
-}
+    footer h1{
+        font-size:0.8rem;
+    }
+    }
